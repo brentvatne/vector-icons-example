@@ -1,0 +1,197 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - EXConstants (4.0.0):
+    - UMConstantsInterface
+    - UMCore
+  - EXFileSystem (4.0.0):
+    - UMCore
+    - UMFileSystemInterface
+  - EXFont (4.0.0):
+    - UMCore
+    - UMFontInterface
+  - EXPermissions (4.0.0):
+    - UMCore
+    - UMPermissionsInterface
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - React (0.58.6):
+    - React/Core (= 0.58.6)
+  - React/Core (0.58.6):
+    - yoga (= 0.58.6.React)
+  - React/CxxBridge (0.58.6):
+    - Folly (= 2018.10.22.00)
+    - React/Core
+    - React/cxxreact
+    - React/jsiexecutor
+  - React/cxxreact (0.58.6):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2018.10.22.00)
+    - React/jsinspector
+  - React/DevSupport (0.58.6):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.58.6)
+  - React/jsi (0.58.6):
+    - Folly (= 2018.10.22.00)
+  - React/jsiexecutor (0.58.6):
+    - Folly (= 2018.10.22.00)
+    - React/cxxreact
+    - React/jsi
+  - React/jsinspector (0.58.6)
+  - React/RCTActionSheet (0.58.6):
+    - React/Core
+  - React/RCTAnimation (0.58.6):
+    - React/Core
+  - React/RCTBlob (0.58.6):
+    - React/Core
+  - React/RCTGeolocation (0.58.6):
+    - React/Core
+  - React/RCTImage (0.58.6):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.58.6):
+    - React/Core
+  - React/RCTNetwork (0.58.6):
+    - React/Core
+  - React/RCTSettings (0.58.6):
+    - React/Core
+  - React/RCTText (0.58.6):
+    - React/Core
+  - React/RCTVibration (0.58.6):
+    - React/Core
+  - React/RCTWebSocket (0.58.6):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - UMBarCodeScannerInterface (1.0.0)
+  - UMCameraInterface (1.0.0)
+  - UMConstantsInterface (1.0.0)
+  - UMCore (1.0.0)
+  - UMFaceDetectorInterface (1.0.0)
+  - UMFileSystemInterface (1.0.0)
+  - UMFontInterface (1.0.0)
+  - UMImageLoaderInterface (1.0.0)
+  - UMPermissionsInterface (1.0.0)
+  - UMReactNativeAdapter (1.0.0):
+    - React
+    - UMCore
+    - UMFontInterface
+  - UMSensorsInterface (1.0.0)
+  - UMTaskManagerInterface (1.0.0)
+  - yoga (0.58.6.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - EXConstants (from `../node_modules/expo-constants/ios`)
+  - EXFileSystem (from `../node_modules/expo-file-system/ios`)
+  - EXFont (from `../node_modules/expo-font/ios`)
+  - EXPermissions (from `../node_modules/expo-permissions/ios`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTBlob (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - UMBarCodeScannerInterface (from `../node_modules/unimodules-barcode-scanner-interface/ios`)
+  - UMCameraInterface (from `../node_modules/unimodules-camera-interface/ios`)
+  - UMConstantsInterface (from `../node_modules/unimodules-constants-interface/ios`)
+  - "UMCore (from `../node_modules/@unimodules/core/ios`)"
+  - UMFaceDetectorInterface (from `../node_modules/unimodules-face-detector-interface/ios`)
+  - UMFileSystemInterface (from `../node_modules/unimodules-file-system-interface/ios`)
+  - UMFontInterface (from `../node_modules/unimodules-font-interface/ios`)
+  - UMImageLoaderInterface (from `../node_modules/unimodules-image-loader-interface/ios`)
+  - UMPermissionsInterface (from `../node_modules/unimodules-permissions-interface/ios`)
+  - "UMReactNativeAdapter (from `../node_modules/@unimodules/react-native-adapter/ios`)"
+  - UMSensorsInterface (from `../node_modules/unimodules-sensors-interface/ios`)
+  - UMTaskManagerInterface (from `../node_modules/unimodules-task-manager-interface/ios`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  EXConstants:
+    :path: "../node_modules/expo-constants/ios"
+  EXFileSystem:
+    :path: "../node_modules/expo-file-system/ios"
+  EXFont:
+    :path: "../node_modules/expo-font/ios"
+  EXPermissions:
+    :path: "../node_modules/expo-permissions/ios"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  UMBarCodeScannerInterface:
+    :path: "../node_modules/unimodules-barcode-scanner-interface/ios"
+  UMCameraInterface:
+    :path: "../node_modules/unimodules-camera-interface/ios"
+  UMConstantsInterface:
+    :path: "../node_modules/unimodules-constants-interface/ios"
+  UMCore:
+    :path: "../node_modules/@unimodules/core/ios"
+  UMFaceDetectorInterface:
+    :path: "../node_modules/unimodules-face-detector-interface/ios"
+  UMFileSystemInterface:
+    :path: "../node_modules/unimodules-file-system-interface/ios"
+  UMFontInterface:
+    :path: "../node_modules/unimodules-font-interface/ios"
+  UMImageLoaderInterface:
+    :path: "../node_modules/unimodules-image-loader-interface/ios"
+  UMPermissionsInterface:
+    :path: "../node_modules/unimodules-permissions-interface/ios"
+  UMReactNativeAdapter:
+    :path: "../node_modules/@unimodules/react-native-adapter/ios"
+  UMSensorsInterface:
+    :path: "../node_modules/unimodules-sensors-interface/ios"
+  UMTaskManagerInterface:
+    :path: "../node_modules/unimodules-task-manager-interface/ios"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  EXConstants: a338ed187829ab25b8817f84cd84eecc13e64fd4
+  EXFileSystem: 18c9980f52e3bd6a28670c17e0d33a9c1584a336
+  EXFont: dad26b039e94ed025103a3eb7ae051f1182407aa
+  EXPermissions: ce3e170052df9d496aa51e1c372080cb2508fb16
+  Folly: de497beb10f102453a1afa9edbf8cf8a251890de
+  glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
+  React: 130b87b2d5e2baac646954282cab87be986d98fc
+  UMBarCodeScannerInterface: 53fd3cbf24fe5c58f3ba82ac8c27f0373fbf52fa
+  UMCameraInterface: d5a2727e76d6b47e3201f863102c055ddbcc6206
+  UMConstantsInterface: 800fb8f95fca9bb2c18ae554e4cb4df4383f6cbf
+  UMCore: c3266dbcd7530f90c63e99a22ee088f3cc323cf9
+  UMFaceDetectorInterface: 0a3116d1313f0a4ea5e8187dbaac8ebe23708135
+  UMFileSystemInterface: a726855fa018f4e76141bb0eab3c576d904286b2
+  UMFontInterface: d43144a9fd2139935623d03b5b617f2d37c4069a
+  UMImageLoaderInterface: c1c22fde92be958166ae6c133d7937a5fd1d8ef8
+  UMPermissionsInterface: 3c47ca68fbcd43286292d678fcb08a62f0189af0
+  UMReactNativeAdapter: 9bbf1462013bc16d7bc0fbdeb88fc0c9d3878c52
+  UMSensorsInterface: 136a828e73e4d69694cdd8d6203a99d38471b90e
+  UMTaskManagerInterface: f88793bd35248182e15591e0aa5b045132312be0
+  yoga: 32d7ef1081951e9a35a4c72a7be797598b138a48
+
+PODFILE CHECKSUM: 3deb82cc2d0fc861cfcdecda755fe5acbd153331
+
+COCOAPODS: 1.6.0
